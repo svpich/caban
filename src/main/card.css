@@ -1,9 +1,16 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .cardItem {
     background-color: white;
     border-radius: 5px;
     margin-bottom: 15px;
     padding: 5px 5px 5px 15px;
 }
+
+
 
 .cardPage {
 
@@ -34,3 +41,36 @@
 .backBtn {
     cursor: pointer;
 }
+
+.addCardButton {
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.addCardButton:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: #2ba6f3;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.addCardInput {
+    height: 23px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.selectSwitchCard {
+    height: 23px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+

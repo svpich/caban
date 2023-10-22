@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.dropDownWrapper {
+    background-color: #EBECF0;
+    border-radius: 15px;
+    color: black;
+    border: solid black;
+    padding: 5px 30px 5px 5px;
+    z-index: 999;
+    position: absolute;
+    top: 60px;
+    right: 300px;
+}
+
+.triangle {
+    content: "";
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #EBECF0 transparent;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 40px;
+    position: absolute;
+}
+
+.arrowUserMenu {
+    transform: rotate(180deg);
+}
+
+.arrowUserMenuRevert {
+
+}
+
+.arrowUserMenu:hover {
+    cursor: pointer;
+}
+
+.arrowUserMenuRevert:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+

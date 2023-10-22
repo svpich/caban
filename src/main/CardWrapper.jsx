@@ -115,7 +115,7 @@ function CardWrapper(props) {
                         return <option value={`{"id": ${element.id}, "taskTitle": "${element.taskTitle}"}`}>{element.taskTitle}</option>
                     })}
                 </select> : null}
-            <input type={"submit"} disabled={!currentStorageNameIsBacklog ? !disabledAddBtn : false} className={`addCardBatton`} onClick={addCard} value={visibleInput ? "submit" : "+ addCard"}/>
+            <input type={"submit"} disabled={!currentStorageNameIsBacklog ? !disabledAddBtn : false} className={`addCardButton ${visibleInput ? "submitBtn" : ""}`} onClick={addCard} value={visibleInput ? "Submit" : "+ addCard"}/>
         </div>
     )
 }

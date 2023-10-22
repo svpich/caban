@@ -7,10 +7,9 @@ function Card(props) {
 
 
     return (
-        <Link to={`/test/${props.id}`} state= { {taskTitle: props.taskTitle} } >
+        <Link to={`/${props.id}`} state= { {taskTitle: props.taskTitle} } >
             <div className={"cardItem"}>
                 {props.taskTitle}
-
             </div>
         </Link>
     )

@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
-import {useLocation} from "react-router-dom";
-import { useNavigate } from 'react-router-dom';
+import {useLocation, useNavigate} from "react-router-dom";
 
 function CardPage(props) {
-    const [content, setContent] = useState("This task has no description");
+    const [content, setContent] = useState();
     const location = useLocation();
     const navigate = useNavigate();
     const taskTitle = location.state?.taskTitle;
@@ -23,7 +22,7 @@ function CardPage(props) {
                 <h2 className={"cardPage_taskTitle"}>{taskTitle}</h2>
                 <span className={"backBtn"} onClick={handleClick}>X</span>
             </div>
-            <textarea className={"cardPage-textArea"} value={content} onChange={handleTestArea}/>
+            <textarea className={"cardPage-textArea"} placeholder={"This task has no description"} value={content} onChange={handleTestArea}/>
         </div>
     )
 

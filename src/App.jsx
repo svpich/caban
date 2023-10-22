@@ -25,7 +25,7 @@ function App() {
             </div>
 
             <Routes>
-                <Route path="/test" element={<CardPage/>} />
+                <Route path="/:id" element={<CardPage/>} />
             </Routes>
         </BrowserRouter>
         </ContextStorage.Provider>
