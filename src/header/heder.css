@@ -7,7 +7,7 @@ ul {
     background-color: #EBECF0;
     border-radius: 15px;
     color: black;
-    border: solid black;
+    border: 2px solid black;
     padding: 5px 30px 5px 5px;
     z-index: 999;
     position: absolute;
